@@ -1,0 +1,21 @@
+ Os endpoints foram testados com o Postman, abaixo segue os mesmos para teste.
+
+ • Lista todos os clientes cadastrados:   http://localhost:8080/cliente/lista - Verbo HTTP GET
+ • Realiza busca pelo CPF: http://localhost:8080/cliente/cpf/{cpf} - Verbo HTTP GET
+ • Exclui um registro através do ID: http://localhost:8080/cliente/{id} - Verbo HTTP DELETE
+ • Cadastra do cliente
+      1.Através http://localhost:8080/cliente - Verbo HTTP POST
+         {     
+		    "nome":"pessoa",
+		    "sexo":"feminino",
+		    "email":"pesso@gmail.com",
+			"naturalidade":"Campina Grande - pb",
+			"nacionalidade":"brasileiro",
+			"cpf":"98765432179",
+			"data_nascimento":"1950-09-30"
+		}
+      2.Via browser http://localhost:8080/ 
+      
+ • Edição do cliente: http://localhost:8080/cliente/ - Verbo HTTP PUT
+
+
